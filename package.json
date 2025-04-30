@@ -1,16 +1,22 @@
 {
-  "name": "",
+  "name": "@kikiutils/stylelint-config",
   "version": "0.1.0",
   "description": "",
-  "author": "",
+  "author": "kiki-kanri",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/author-or-organization/repo-name.git"
+    "url": "git+https://github.com/kikiutils/stylelint-config.git"
   },
   "keywords": [],
   "sideEffects": false,
-  "exports": {},
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
   "types": "./dist/index.d.ts",
   "files": [
     "./dist",

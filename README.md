@@ -1,4 +1,4 @@
-# package-name
+# @kikiutils/stylelint-config
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -20,7 +20,7 @@ Description
 Using [pnpm](https://pnpm.io):
 
 ```bash
-pnpm add package-name
+pnpm add -D @kikiutils/stylelint-config
 ```
 
 You can also use `yarn`, `npm`, or `bun`.
@@ -32,14 +32,14 @@ You can also use `yarn`, `npm`, or `bun`.
 [MIT License](./LICENSE)
 
 <!-- Badges -->
-[npm-version-href]: https://npmjs.com/package/package-name
-[npm-version-src]: https://img.shields.io/npm/v/package-name/latest.svg?colorA=18181b&colorB=28cf8d&style=flat
+[npm-version-href]: https://npmjs.com/package/@kikiutils/stylelint-config
+[npm-version-src]: https://img.shields.io/npm/v/@kikiutils/stylelint-config/latest.svg?colorA=18181b&colorB=28cf8d&style=flat
 
-[npm-downloads-href]: https://npmjs.com/package/package-name
-[npm-downloads-src]: https://img.shields.io/npm/dm/package-name.svg?colorA=18181b&colorB=28cf8d&style=flat
+[npm-downloads-href]: https://npmjs.com/package/@kikiutils/stylelint-config
+[npm-downloads-src]: https://img.shields.io/npm/dm/@kikiutils/stylelint-config.svg?colorA=18181b&colorB=28cf8d&style=flat
 
-[codecov-href]: https://codecov.io/gh/author-or-organization/repo-name
-[codecov-src]: https://codecov.io/gh/author-or-organization/repo-name/graph/badge.svg?token=
+[codecov-href]: https://codecov.io/gh/kikiutils/stylelint-config
+[codecov-src]: https://codecov.io/gh/kikiutils/stylelint-config/graph/badge.svg?token=
 
-[license-href]: https://github.com/author-or-organization/repo-name/blob/main/LICENSE
-[license-src]: https://img.shields.io/github/license/author-or-organization%2Frepo-name?colorA=18181b&colorB=28cf8d&style=flat
+[license-href]: https://github.com/kikiutils/stylelint-config/blob/main/LICENSE
+[license-src]: https://img.shields.io/github/license/kikiutils%2Frepo-name?colorA=18181b&colorB=28cf8d&style=flat
