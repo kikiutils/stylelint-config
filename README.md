@@ -42,4 +42,4 @@ You can also use `yarn`, `npm`, or `bun`.
 [codecov-src]: https://codecov.io/gh/kikiutils/stylelint-config/graph/badge.svg?token=
 
 [license-href]: https://github.com/kikiutils/stylelint-config/blob/main/LICENSE
-[license-src]: https://img.shields.io/github/license/kikiutils%2Frepo-name?colorA=18181b&colorB=28cf8d&style=flat
+[license-src]: https://img.shields.io/github/license/kikiutils/stylelint-config?colorA=18181b&colorB=28cf8d&style=flat
