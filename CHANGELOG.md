@@ -1,5 +1,32 @@
 # Changelog
 
+## v0.2.0
+
+[compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.1.0...v0.2.0)
+
+### 🚀 Enhancements
+
+- Add `ignoreUtilityAtRules` option and functionally ([464c7af](https://github.com/kikiutils/stylelint-config/commit/464c7af))
+
+### 🩹 Fixes
+
+- Correct badge src in README ([69798a4](https://github.com/kikiutils/stylelint-config/commit/69798a4))
+
+### 📖 Documentation
+
+- Replace `%2F` with `/` in badge URLs in README ([4aaf916](https://github.com/kikiutils/stylelint-config/commit/4aaf916))
+
+### 🏡 Chore
+
+- Ensure all scripts change to their own directory before execution ([9be5fbf](https://github.com/kikiutils/stylelint-config/commit/9be5fbf))
+- Update ignore files ([c81c294](https://github.com/kikiutils/stylelint-config/commit/c81c294))
+- Upgrade dependencies ([e97f416](https://github.com/kikiutils/stylelint-config/commit/e97f416))
+- Remove unused dependencies ([5c961f1](https://github.com/kikiutils/stylelint-config/commit/5c961f1))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v0.1.0
 
 [compare changes](https://github.com/kikiutils/stylelint-config/compare/e853831...v0.1.0)
