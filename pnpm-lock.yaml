@@ -45,9 +45,6 @@ importers:
       '@types/lodash':
         specifier: ^4.17.16
         version: 4.17.16
-      '@types/node':
-        specifier: ^22.15.12
-        version: 22.15.12
       jest:
         specifier: ^29.7.0
         version: 29.7.0(@types/node@22.15.12)
