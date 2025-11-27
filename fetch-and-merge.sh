@@ -1,8 +1,9 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 
-cd "$(realpath "$(dirname "$(readlink -f "$0")")")"
+SCRIPTS_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
+cd "${SCRIPTS_DIR}"
 
-git fetch https://github.com/kiki-kanri/package-template main
+git fetch https://github.com/kiki-kanri/ts-package-template main
 git merge FETCH_HEAD
