@@ -50,7 +50,7 @@
   },
   "peerDependenciesMeta": {},
   "dependencies": {
-    "lodash": "^4.17.21",
+    "es-toolkit": "^1.42.0",
     "stylelint": "^16.26.0",
     "stylelint-config-clean-order": "^8.0.0",
     "stylelint-config-html": "^1.1.0",

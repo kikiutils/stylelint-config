@@ -1,5 +1,4 @@
-// @ts-expect-error Ignore this error.
-import merge from 'lodash/merge.js';
+import { merge } from 'es-toolkit';
 import type { Config } from 'stylelint';
 
 export interface Options {
@@ -73,7 +72,7 @@ export function createConfig(environment: 'html' | 'vue', options?: Options): Co
     };
 
     if (options?.configOverrideMode === 'assign') return Object.assign(baseConfig, options.overrideConfig);
-    return merge(baseConfig, options?.overrideConfig);
+    return merge(baseConfig, options?.overrideConfig || {});
 }
 
 export const html = createConfig('html');
