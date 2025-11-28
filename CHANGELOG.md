@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.3.1
+
+[compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.3.0...v0.3.1)
+
+### 🏡 Chore
+
+- Replace `lodash` with `es-toolkit` ([82ff883](https://github.com/kikiutils/stylelint-config/commit/82ff883))
+
+### ❤️ Contributors
+
+- Kiki-kanri
+
 ## v0.3.0
 
 [compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.2.0...v0.3.0)
