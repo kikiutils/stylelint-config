@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.4.0
+
+[compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.3.1...v0.4.0)
+
+### 🩹 Fixes
+
+- Adjust `customExports` order in `tsdown.config` to move wildcard (`*`) exports to the end ([0b3f357](https://github.com/kikiutils/stylelint-config/commit/0b3f357))
+
+### 🏡 Chore
+
+- ⚠️  Upgrade deps ([7f78425](https://github.com/kikiutils/stylelint-config/commit/7f78425))
+- Update tsdown config ([a01d8dd](https://github.com/kikiutils/stylelint-config/commit/a01d8dd))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Upgrade deps ([7f78425](https://github.com/kikiutils/stylelint-config/commit/7f78425))
+
+### ❤️ Contributors
+
+- Kiki-kanri
+
 ## v0.3.1
 
 [compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.3.0...v0.3.1)
