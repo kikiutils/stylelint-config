@@ -47,7 +47,7 @@ export default defineConfig({
             // TODO: automatically add `./dist/*.js` from entry
             return {
                 ...sortedExports,
-                './*': './dist/*.js',
+                // './*': './dist/*.js',
             };
         },
     },
