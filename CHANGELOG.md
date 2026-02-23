@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.4.1
+
+[compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.4.0...v0.4.1)
+
+### 🏡 Chore
+
+- Update deps ([3594cf9](https://github.com/kikiutils/stylelint-config/commit/3594cf9))
+
+### ❤️ Contributors
+
+- Kiki-kanri
+
 ## v0.4.0
 
 [compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.3.1...v0.4.0)
