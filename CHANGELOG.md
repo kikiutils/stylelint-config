@@ -1,5 +1,32 @@
 # Changelog
 
+## v0.5.0
+
+[compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.4.1...v0.5.0)
+
+### 🏡 Chore
+
+- Update vscode settings ([7b2f6f9](https://github.com/kikiutils/stylelint-config/commit/7b2f6f9))
+- Update eslint config ([77a5f00](https://github.com/kikiutils/stylelint-config/commit/77a5f00))
+- Update deps, tsdown config and package scripts ([5ada952](https://github.com/kikiutils/stylelint-config/commit/5ada952))
+- Update deps and configs ([6082b0e](https://github.com/kikiutils/stylelint-config/commit/6082b0e))
+- Add `.gitattributes` ([4645112](https://github.com/kikiutils/stylelint-config/commit/4645112))
+- Add `.omx/` to `.gitignore` ([a9a8cfa](https://github.com/kikiutils/stylelint-config/commit/a9a8cfa))
+- Update scripts ([723523c](https://github.com/kikiutils/stylelint-config/commit/723523c))
+- ⚠️  Upgrade deps ([5dd5dd3](https://github.com/kikiutils/stylelint-config/commit/5dd5dd3))
+
+### 🤖 CI
+
+- Update node versions ([8f4edfd](https://github.com/kikiutils/stylelint-config/commit/8f4edfd))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Upgrade deps ([5dd5dd3](https://github.com/kikiutils/stylelint-config/commit/5dd5dd3))
+
+### ❤️ Contributors
+
+- Kiki-kanri
+
 ## v0.4.1
 
 [compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.4.0...v0.4.1)
