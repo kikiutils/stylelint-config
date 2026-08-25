@@ -47,27 +47,27 @@
   },
   "peerDependenciesMeta": {},
   "dependencies": {
-    "es-toolkit": "^1.49.0",
-    "stylelint": "^17.14.0",
+    "es-toolkit": "^1.51.0",
+    "stylelint": "^17.14.1",
     "stylelint-config-clean-order": "^10.0.0",
-    "stylelint-config-html": "^1.1.0",
-    "stylelint-config-recommended-vue": "^1.6.1",
+    "stylelint-config-html": "^2.0.0",
+    "stylelint-config-recommended-vue": "^2.0.0",
     "stylelint-config-standard-scss": "^17.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^3.0.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^9.1.0",
+    "@antfu/eslint-config": "^9.3.0",
     "@kikiutils/eslint-config": "^9.2.0",
     "@kikiutils/tsconfigs": "^7.0.0",
-    "@types/node": "^26.1.1",
-    "@vitest/coverage-v8": "^4.1.10",
+    "@types/node": "^26.2.0",
+    "@vitest/coverage-v8": "^4.1.11",
     "changelogen": "^0.6.2",
-    "eslint": "^10.7.0",
-    "knip": "^6.27.0",
-    "publint": "^0.3.21",
-    "tsdown": "^0.22.9",
+    "eslint": "^10.9.0",
+    "knip": "^6.32.2",
+    "publint": "^0.3.24",
+    "tsdown": "^0.22.14",
     "typescript": "^6.0.3",
-    "unplugin-unused": "^0.5.7",
-    "vitest": "^4.1.10"
+    "unplugin-unused": "^0.6.0",
+    "vitest": "^4.1.11"
   }
 }
