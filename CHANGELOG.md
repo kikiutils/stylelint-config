@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.6.0
+
+[compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.5.0...v0.6.0)
+
+### 🏡 Chore
+
+- Ignore local AI tooling artifacts ([7cf272b](https://github.com/kikiutils/stylelint-config/commit/7cf272b))
+- Update `modify-files-permissions.sh` ([c56f31f](https://github.com/kikiutils/stylelint-config/commit/c56f31f))
+- Update `modify-files-permissions.sh` ([249c4c8](https://github.com/kikiutils/stylelint-config/commit/249c4c8))
+- Update `modify-files-permissions.sh` ([4c193c3](https://github.com/kikiutils/stylelint-config/commit/4c193c3))
+- Update `.gitignore` ([5d5bbc5](https://github.com/kikiutils/stylelint-config/commit/5d5bbc5))
+- ⚠️  Upgrade deps ([5283e8a](https://github.com/kikiutils/stylelint-config/commit/5283e8a))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Upgrade deps ([5283e8a](https://github.com/kikiutils/stylelint-config/commit/5283e8a))
+
+### ❤️ Contributors
+
+- Kiki-kanri
+
 ## v0.5.0
 
 [compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.4.1...v0.5.0)
