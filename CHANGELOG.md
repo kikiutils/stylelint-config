@@ -1,5 +1,28 @@
 # Changelog
 
+## v0.6.1
+
+[compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.6.0...v0.6.1)
+
+### 🩹 Fixes
+
+- **deps:** Pin TypeScript ESLint plugin to avoid false positives ([eadca5a](https://github.com/kikiutils/stylelint-config/commit/eadca5a))
+- Resolve Stylelint configs and plugins to absolute paths ([187b558](https://github.com/kikiutils/stylelint-config/commit/187b558))
+
+### 🏡 Chore
+
+- Add `pnpm-workspace.yaml` ([bcd3c17](https://github.com/kikiutils/stylelint-config/commit/bcd3c17))
+- Update `pnpm-workspace.yaml` ([fe5e43f](https://github.com/kikiutils/stylelint-config/commit/fe5e43f))
+- Update `pnpm-workspace.yaml` ([5f000dd](https://github.com/kikiutils/stylelint-config/commit/5f000dd))
+- Upgrade deps ([4f0b8da](https://github.com/kikiutils/stylelint-config/commit/4f0b8da))
+- Update `.gitignore` ([87bd40c](https://github.com/kikiutils/stylelint-config/commit/87bd40c))
+- Update ignore files ([d91f81e](https://github.com/kikiutils/stylelint-config/commit/d91f81e))
+- Update `modify-files-permissions.sh` ([e5d2bee](https://github.com/kikiutils/stylelint-config/commit/e5d2bee))
+
+### ❤️ Contributors
+
+- Kiki-kanri
+
 ## v0.6.0
 
 [compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.5.0...v0.6.0)
