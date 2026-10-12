@@ -1,3 +1,5 @@
+import { fileURLToPath } from 'node:url';
+
 import { merge } from 'es-toolkit';
 import type { Config } from 'stylelint';
 
@@ -34,11 +36,14 @@ export interface Options {
     overrideConfig?: Config;
 }
 
+// Functions
+const resolve = (id: string): string => fileURLToPath(import.meta.resolve(id));
+
 export function createConfig(environment: 'html' | 'vue', options?: Options): Config {
-    const extendConfigs = ['stylelint-config-standard-scss'];
-    if (environment === 'html') extendConfigs.push('stylelint-config-html');
-    else if (environment === 'vue') extendConfigs.push('stylelint-config-recommended-vue/scss');
-    extendConfigs.push('stylelint-config-clean-order');
+    const extendConfigs = [resolve('stylelint-config-standard-scss')];
+    if (environment === 'html') extendConfigs.push(resolve('stylelint-config-html'));
+    else if (environment === 'vue') extendConfigs.push(resolve('stylelint-config-recommended-vue/scss'));
+    extendConfigs.push(resolve('stylelint-config-clean-order'));
 
     const rules: Config['rules'] = { 'plugin/declaration-block-no-ignored-properties': true };
     if (options?.ignoreDeprecatedApply !== false) {
@@ -65,7 +70,7 @@ export function createConfig(environment: 'html' | 'vue', options?: Options): Co
 
     const baseConfig: Config = {
         extends: extendConfigs,
-        plugins: ['stylelint-declaration-block-no-ignored-properties'],
+        plugins: [resolve('stylelint-declaration-block-no-ignored-properties')],
         reportInvalidScopeDisables: true,
         reportNeedlessDisables: true,
         rules,
