@@ -45,10 +45,12 @@
     "test:watch": "vitest watch --coverage",
     "typecheck": "tsc -b --noEmit"
   },
+  "peerDependencies": {
+    "stylelint": "^18.0.0"
+  },
   "peerDependenciesMeta": {},
   "dependencies": {
-    "es-toolkit": "^1.52.0",
-    "stylelint": "^17.16.0",
+    "es-toolkit": "^1.53.1",
     "stylelint-config-clean-order": "^10.0.0",
     "stylelint-config-html": "^2.0.0",
     "stylelint-config-recommended-vue": "^2.0.0",
@@ -56,19 +58,19 @@
     "stylelint-declaration-block-no-ignored-properties": "^3.0.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^9.5.1",
+    "@antfu/eslint-config": "^10.0.0",
     "@arethetypeswrong/core": "^0.18.5",
-    "@kikiutils/eslint-config": "^9.2.1",
+    "@kikiutils/eslint-config": "^10.2.1",
     "@kikiutils/tsconfigs": "^7.0.0",
-    "@types/node": "^26.6.5",
-    "@vitest/coverage-v8": "^5.0.3",
+    "@types/node": "^26.6.6",
+    "@vitest/coverage-v8": "^5.1.0",
     "changelogen": "^0.6.2",
-    "eslint": "^10.12.0",
-    "knip": "^6.41.0",
+    "eslint": "^10.14.0",
+    "knip": "^6.44.1",
     "publint": "^0.3.25",
-    "tsdown": "^0.23.1",
+    "tsdown": "^0.23.5",
     "typescript": "^6.0.3",
     "unplugin-unused": "^0.6.0",
-    "vitest": "^5.0.3"
+    "vitest": "^5.1.0"
   }
 }
