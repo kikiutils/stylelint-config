@@ -14,16 +14,8 @@ export interface Options {
     configOverrideMode: 'assign' | 'lodash-merge';
 
     /**
-     * Whether to ignore the `@apply` directive being flagged as deprecated.
-     * Useful when working with utility-first frameworks like Tailwind CSS or UnoCSS.
-     *
-     * @defaultValue true
-     */
-    ignoreDeprecatedApply?: boolean;
-
-    /**
      * Whether to ignore at-rules used by utility-first frameworks
-     * like Tailwind CSS, UnoCSS, etc. (e.g., `@apply`, `@screen`)
+     * like Tailwind CSS, UnoCSS, etc. (e.g., `@screen`, `@utilities`)
      *
      * @defaultValue true
      */
@@ -47,13 +39,6 @@ export function createConfig(environment: 'html' | 'vue', options?: Options): Co
     extendConfigs.push(resolve('stylelint-config-clean-order'));
 
     const rules: Config['rules'] = { 'plugin/declaration-block-no-ignored-properties': true };
-    if (options?.ignoreDeprecatedApply !== false) {
-        rules['at-rule-no-deprecated'] = [
-            true,
-            { ignoreAtRules: ['apply'] },
-        ];
-    }
-
     if (options?.ignoreUtilityAtRules !== false) {
         rules['scss/at-rule-no-unknown'] = [
             true,

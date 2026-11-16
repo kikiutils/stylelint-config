@@ -27,6 +27,13 @@ You can also use `yarn`, `npm`, or `bun`.
 
 ## Usage
 
+## Migration to Stylelint 18
+
+- Use Stylelint 18. Stylelint 17 is no longer supported.
+- Remove `ignoreDeprecatedApply` from `createConfig` options. Stylelint 18 no longer
+  treats `@apply` as deprecated; other deprecated at-rules are still checked by the
+  inherited configuration.
+
 ## License
 
 [MIT License](./LICENSE)
