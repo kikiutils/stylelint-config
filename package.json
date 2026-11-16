@@ -1,7 +1,7 @@
 {
   "name": "@kikiutils/stylelint-config",
   "type": "module",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "",
   "author": "kiki-kanri",
   "license": "MIT",
@@ -12,16 +12,7 @@
   "keywords": [],
   "sideEffects": false,
   "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "require": null
-    },
-    "./index": {
-      "types": null,
-      "import": null,
-      "require": null
-    },
+    ".": "./dist/index.js",
     "./package.json": "./package.json"
   },
   "types": "./dist/index.d.ts",

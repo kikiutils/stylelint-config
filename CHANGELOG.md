@@ -1,5 +1,47 @@
 # Changelog
 
+## v0.7.0
+
+[compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.6.1...v0.7.0)
+
+### 🚀 Enhancements
+
+- Enable three additional SCSS validation rules ([749c7dc](https://github.com/kikiutils/stylelint-config/commit/749c7dc))
+
+### 💅 Refactors
+
+- **scripts:** Rename peer dependency metadata updater to sync ([cc094ef](https://github.com/kikiutils/stylelint-config/commit/cc094ef))
+- ⚠️  Remove obsolete ignoreDeprecatedApply option ([84af36b](https://github.com/kikiutils/stylelint-config/commit/84af36b))
+
+### 📦 Build
+
+- Pin TypeScript override and organize maintenance scripts ([b878c55](https://github.com/kikiutils/stylelint-config/commit/b878c55))
+- Simplify tsdown configuration and add type validation ([5ba0dcb](https://github.com/kikiutils/stylelint-config/commit/5ba0dcb))
+- Generate scoped wildcard package exports from entries ([051558a](https://github.com/kikiutils/stylelint-config/commit/051558a))
+
+### 🏡 Chore
+
+- Update `pnpm-workspace.yaml` ([307ba57](https://github.com/kikiutils/stylelint-config/commit/307ba57))
+- Remove `@typescript-eslint/eslint-plugin` from `overrides` ([9a7922a](https://github.com/kikiutils/stylelint-config/commit/9a7922a))
+- Update `minimumReleaseAgeExcludes` ([362ebd7](https://github.com/kikiutils/stylelint-config/commit/362ebd7))
+- Update pnpm config ([17fefba](https://github.com/kikiutils/stylelint-config/commit/17fefba))
+- Refine template export exclusions and script entrypoint ([4ffddaa](https://github.com/kikiutils/stylelint-config/commit/4ffddaa))
+- Lint code ([1c5c42d](https://github.com/kikiutils/stylelint-config/commit/1c5c42d))
+- Upgrade deps ([d4dce0c](https://github.com/kikiutils/stylelint-config/commit/d4dce0c))
+- Lint code ([ee81f39](https://github.com/kikiutils/stylelint-config/commit/ee81f39))
+- Update ignore files ([aceb847](https://github.com/kikiutils/stylelint-config/commit/aceb847))
+- Upgrade deps ([bb1a7f0](https://github.com/kikiutils/stylelint-config/commit/bb1a7f0))
+- Lint code ([0a6e534](https://github.com/kikiutils/stylelint-config/commit/0a6e534))
+- Add `ts-extras` dev deps ([27cd34d](https://github.com/kikiutils/stylelint-config/commit/27cd34d))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Remove obsolete ignoreDeprecatedApply option ([84af36b](https://github.com/kikiutils/stylelint-config/commit/84af36b))
+
+### ❤️ Contributors
+
+- Kiki-kanri
+
 ## v0.6.1
 
 [compare changes](https://github.com/kikiutils/stylelint-config/compare/v0.6.0...v0.6.1)
