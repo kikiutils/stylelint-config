@@ -9,7 +9,7 @@ export interface Options {
      * - `'assign'`: Shallow merge using `Object.assign`.
      * - `'lodash-merge'`: Deep merge using `lodash.merge`.
      *
-     * @default 'lodash-merge'
+     * @defaultValue 'lodash-merge'
      */
     configOverrideMode: 'assign' | 'lodash-merge';
 
@@ -17,7 +17,7 @@ export interface Options {
      * Whether to ignore the `@apply` directive being flagged as deprecated.
      * Useful when working with utility-first frameworks like Tailwind CSS or UnoCSS.
      *
-     * @default true
+     * @defaultValue true
      */
     ignoreDeprecatedApply?: boolean;
 
@@ -25,7 +25,7 @@ export interface Options {
      * Whether to ignore at-rules used by utility-first frameworks
      * like Tailwind CSS, UnoCSS, etc. (e.g., `@apply`, `@screen`)
      *
-     * @default true
+     * @defaultValue true
      */
     ignoreUtilityAtRules?: boolean;
 
@@ -43,6 +43,7 @@ export function createConfig(environment: 'html' | 'vue', options?: Options): Co
     const extendConfigs = [resolve('stylelint-config-standard-scss')];
     if (environment === 'html') extendConfigs.push(resolve('stylelint-config-html'));
     else if (environment === 'vue') extendConfigs.push(resolve('stylelint-config-recommended-vue/scss'));
+
     extendConfigs.push(resolve('stylelint-config-clean-order'));
 
     const rules: Config['rules'] = { 'plugin/declaration-block-no-ignored-properties': true };
