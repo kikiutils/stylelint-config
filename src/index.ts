@@ -38,7 +38,13 @@ export function createConfig(environment: 'html' | 'vue', options?: Options): Co
 
     extendConfigs.push(resolve('stylelint-config-clean-order'));
 
-    const rules: Config['rules'] = { 'plugin/declaration-block-no-ignored-properties': true };
+    const rules: Config['rules'] = {
+        'plugin/declaration-block-no-ignored-properties': true,
+        'scss/declaration-property-value-no-unknown': true,
+        'scss/dimension-no-non-numeric-values': true,
+        'scss/function-calculation-no-interpolation': true,
+    };
+
     if (options?.ignoreUtilityAtRules !== false) {
         rules['scss/at-rule-no-unknown'] = [
             true,
